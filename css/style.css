@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:#0074ff;	
+}
+
+/*Navigation*/
+.CNwrapper{
+	position:fixed;
+	width:98.8%;
+	min-height:20px;
+	background:url(nav.png) repeat-x;
+	float:left;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.CNmain{
+	font-size:20px;
+	width:45%;
+	min-height:20px;
+	float:left;
+	color:#FFF;
+	padding-left:10px;
+}
+.CNmain2{
+	font-size:70%;
+	width:53%;
+	min-height:20px;
+	float:left;
+	color:#FFF;
+	text-align:right;
+}
+.CNmain a{
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+.CNmain a:hover{
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+	background:#0074ff;
+}
+.CNmain2 a{
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+}
+.CNmain2 a:hover{
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+	background:#0074ff;
+}
+
+/*Main Content*/
+.CBwrapper{
+	min-height:600px;
+	float:left;
+	width:100%;
+}
+.CBborder{
+	border-radius:10px;
+	min-height:600px;
+	background:#FFFFFF;
+	border:#000 solid thin;
+}
+.CBmain{
+	padding:10px;
+}
+.CBbanner{
+	padding:20px;
+	width:100%;
+	min-height:300px;
+}
+.CBcontent{
+	padding:20px;
+	width:96.8%;
+	min-height:300px;
+}
+.CBcontent p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	}
+.CBcontent h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#e8e8e8;
+	text-shadow: 0 1px 0 #000000,
+               0 2px 0 #000000,
+               0 3px 0 #000000,
+               0 4px 0 #000000,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.CFmain{
+	text-align:center;
+	color:#cacaca;
+}
+.CBSearch{
+    padding-top:3em;
+}
+.CBSearch h2{
+    font-family:cursive;
+}
+
+/*Field designs*/
+.CBcontent .CBinput{
+	width:15em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        border:#000 solid thin;
+        padding:3px;
+}
+.CBcontent .CBinput:focus{
+	background:#FFF4B6;
+}
+.CBcontent .CBtext{
+	width:30em;
+	height:5em;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        border:#000 solid thin;
+        padding:3px;
+}
+.CBcontent .CBtext:focus{
+	background:#FFF4B6;
+      
+}
+.CBcontent .CBselect{
+	width:8em;
+        border:#000 solid thin;
+        padding:3px;
+}
+.CBcontent .CBselect:focus{
+	background:#FFF4B6;
+}
+.CBcontent .CBSubmit{
+    border:#000 thin solid;
+    width:10em;
+    height:2em;
+    font-family:sans-serif;
+    border-radius:2px;
+    background:#e8e8e8;
+    text-decoration:none;
+}
+.CBcontent .CBSubmit:hover{
+    background:#000;
+    color:#FFF;
+    border:#FFFFFF thin solid;
+    border-radius:2px;
+    text-decoration:none;
+    font-family:sans-serif;
+    border-radius:2px;
+}
+.CBcontent .CBButton{
+    border:#000 thin solid;
+    color:#000;
+    width:10em;
+    height:2em;
+    font-family:sans-serif;
+    border-radius:2px;
+    background:#e8e8e8;
+    text-decoration:none;
+    padding:3px;
+}
+.CBcontent .CBButton:hover{
+    background:#000;
+    color:#FFF;
+    border:#FFFFFF thin solid;
+    border-radius:2px;
+    text-decoration:none;
+    font-family:sans-serif;
+    border-radius:2px;
+    padding:3px;
+}
+
+/*table style*/
+.CBdata th{
+    width:20em;
+    background:#79BAEC;
+    border:#FFF thin solid;
+}
+.CBdata td{
+    font-family:serif;
+    text-align:center;
+}
+
+.CBcontent .error{
+    background:#F00;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.edits{
+    text-decoration:none;
+    font-size:.8em;
+    color:#000;
+    font-style:italic;
+}
+.edits:hover{
+    text-decoration:none;
+    font-size:.8em;
+    color:#000;
+    font-style:normal;
+    font-weight:bold;
+    background:#e8e8e8;
+    border:1px #000;
+    padding:5px;
+    margin:2px;
+}
+
+/*Pagination*/
+.paging{ float:left; width:100%}
+#paginations a , #paginations strong{ text-decoration:none;
+                                background:#eee;
+				padding:4px 5px;
+				color:#000;
+				font-weight:normal;
+				font-size:12px;
+				border:1px solid #EEE; } 
+				
+#paginations strong, #paginations a:hover{
+	font-weight:normal;
+	background:#35403E;
+	color:#FFFFFF
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#d9d9d9;
+	color:#000;
+}
+
+/*Navigation*/
+.ANwrapper{
+	width:98.4%;
+	float:left;
+	background:url(nav2.png) repeat-x;
+	border-radius:10px;
+	position:fixed;
+	color:#FFFFFF;
+}
+.ANmain1{
+	width:40%;
+	padding-left:10px;
+	padding-top:2px;
+	float:left;
+}
+.ANmain2{
+	width:57%;
+        float:left;
+	text-align:right;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#ContactUs{
+	color:#000000;
+}
+#Churches{
+	color:#000000;
+}
+#Backup{
+        color:#000000;
+}
+
+/*text and links in the navigation*/
+.ANmain1 a{
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ANmain1 a:hover{
+	padding: 3px 3px 5px 3px;
+	background:#d9d9d9;
+	color:#000000;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ANmain2 a{
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.ANmain2 a:hover{
+	padding: 3px 3px 3px 3px;
+	background:#d9d9d9;
+	color:#000000;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#Churches a{
+	text-decoration:none;
+	color:#000;
+}
+#Churches a:hover{
+	text-decoration:none;
+	color:#000;
+	background:#FFFFFF;
+}
+
+/*main contents*/
+.ABwrapper{
+	min-height:600px;
+	float:left;
+	width:100%;
+}
+.ABborder{
+	border-radius:10px;
+	min-height:600px;
+	background:#eee;
+	border:#000 solid thin;
+}
+.ABcontent{
+	padding:20px;
+	padding-right:20px;
+	width:96.8%;
+	min-height:300px;
+}
+.ABbanner{
+	padding:20px;
+	width:100%;
+	min-height:300px;
+}
+
+/*main content text*/
+.ABcontent p{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	}
+.ABcontent h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#e8e8e8;
+	text-shadow: 0 1px 0 #000000,
+               0 2px 0 #000000,
+               0 3px 0 #000000,
+               0 4px 0 #000000,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/*Footer*/
+.AFmain{
+	text-align:center;
+	color:#ffffff;
+	text-shadow:1px 1.5px 1px #000;
+}

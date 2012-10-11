@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(login-background.png);
+	font:Verdana, Geneva, sans-serif;
+}
+/*Login*/
+#CLborder{
+	border:#FFFFFF 3px solid;
+	min-height:20em;
+	width:33em;
+	margin:6em 6em 6em 6em;
+	border-radius:.5em;
+	background:#DDDDDD;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow: 10px 10px 5px #BBBBBB;
+	-webkit-box-shadow: 10px 10px 5px #BBBBBB;
+	box-shadow: 10px 10px 5px #BBBBBB;
+}
+.CLerror{
+	color:#F00;
+}
+.CLtitle{
+    text-align:center;
+    font-family:serif;
+    font-size:1.2em;
+}
+#CLmain{
+	padding:3em 3em 3em 3em;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#CFmain{
+	font:Georgia, "Times New Roman", Times, serif;
+	font-size:9px;
+	text-align:center;
+}
+ul{
+	list-style:none;
+	padding:1em;
+}
+#user_username{
+	width:20em;
+	font:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	border-radius:10px;
+}
+#user_username:focus{
+	width:20em;
+	font:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	border-radius:10px;
+	background:#FFF4B6;
+}
+#user_password{
+	width:20em;
+	font:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	border-radius:10px;
+}
+#user_password:focus{
+	width:20em;
+	font:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	border-radius:10px;
+	background:#FFF4B6;
+}
+#submitLogin{
+	width:20em;
+	height:3em;
+	font-family:Verdana, Geneva, sans-serif;
+	border-radius:10px;
+	box-shadow:5px 5px 1px #000000;
+}
+#submitLogin:hover{
+	width:20em;
+	height:3em;
+	font-family:Verdana, Geneva, sans-serif;
+	border-radius:10px;
+	background:#DSDSDS;
+	box-shadow:5px 5px 1px #000000;
+}
